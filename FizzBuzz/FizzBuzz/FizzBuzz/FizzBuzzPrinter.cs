@@ -5,33 +5,21 @@ namespace FizzBuzz
 { 
     public class FizzBuzzPrinter
     {
-        //public string   PrintNumber(int i)
-        public void PrintNumber(int i)
+        public string PrintNumber(int i)
         {
-            //StringBuilder returnValue = new StringBuilder();
-            bool fizzAndOrBuzz = false; 
+            StringBuilder returnValue = new StringBuilder();
 
             if (i % 3 == 0)
             {
-                //returnValue.Append("Fizz");
-                Console.Write("Fizz");
-                fizzAndOrBuzz = true;
+                returnValue.Append("Fizz");
             }
 
             if (i % 5 == 0)
             {
-                //returnValue.Append("Buzz");
-                Console.Write("Buzz");
-                fizzAndOrBuzz = true;
+                returnValue.Append("Buzz");
             }
 
-            if (!fizzAndOrBuzz)
-            {
-                Console.Write(i);
-            }
-
-            Console.WriteLine();
-            //return string.IsNullOrEmpty(returnValue.ToString()) ? i.ToString() : returnValue.ToString() ;
+            return string.IsNullOrEmpty(returnValue.ToString()) ? i.ToString() : returnValue.ToString() ;
         }
     }
 }
