@@ -8,3 +8,4 @@ This is a test repository so that I can learn how to use git and GitHub
 [This line ALSO was EDITED LOCALLY, and I'd like to see a merge conflict.]
 [This line ALSO was EDITED using the web-based editor in the github website.]
 [I fixed the merge conflict in NOTEPAD++, leaving both of the conflicting lines above] 
+[This line was added in the web site editor]
