@@ -21,6 +21,7 @@ namespace FizzBuzz.Tests
         [TestCase(30, "FizzBuzz")]
         [TestCase(100, "Buzz")]
         [TestCase(101, "101")]
+        [TestCase(102, "Fizz")]
         [TestCase(-1, "-1")]
         [TestCase(-2, "-2")]
         [TestCase(-3, "Fizz")]
