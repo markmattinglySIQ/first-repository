@@ -10,3 +10,4 @@ This is a test repository so that I can learn how to use git and GitHub
 [I fixed the merge conflict in NOTEPAD++, leaving both of the conflicting lines above] 
 [This line was added locally]
 [This line was editd Locallyd]
+[This line was edited in the web site]
